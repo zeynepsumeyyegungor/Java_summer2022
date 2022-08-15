@@ -17,12 +17,5 @@ public class C01_AsciiTable {
         System.out.println(str+sayi+harf);   // banan10a
         System.out.println("" +sayi+harf);   //10a
 
-
-
-
-
-        /*
-        1-
-         */
     }
 }
