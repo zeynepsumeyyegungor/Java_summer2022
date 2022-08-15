@@ -1,0 +1,25 @@
+[33mcommit 82ef20af2fd6105d03b034f8cd8992b2b8cd0147[m
+Author: Zeynep Sumeyye Gungor <gungorsumeyye3520@gmail.com>
+Date:   Sat Aug 13 21:55:13 2022 +0300
+
+    2.Commit
+
+[1mdiff --git a/src/day1_git/day1_git.java b/src/day1_git/day1_git.java[m
+[1mindex 75141a8..5596ee5 100644[m
+[1m--- a/src/day1_git/day1_git.java[m
+[1m+++ b/src/day1_git/day1_git.java[m
+[36m@@ -3,5 +3,6 @@[m [mpackage day1_git;[m
+ public class day1_git {[m
+     public static void main(String[] args) {[m
+         System.out.println("Hello git 1. deneme");[m
+[32m+[m[32m        System.out.println("Hello git 2. deneme");[m
+     }[m
+ }[m
+[1mdiff --git a/src/day1_git/day1_gitt.java b/src/day1_git/day1_gitt.java[m
+[1mdeleted file mode 100644[m
+[1mindex 9eea5c3..0000000[m
+[1m--- a/src/day1_git/day1_gitt.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,2 +0,0 @@[m
+[31m-package day1_git;public class day1_gitt {[m
+[31m-}[m
