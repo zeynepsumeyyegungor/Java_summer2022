@@ -28,6 +28,6 @@ public class C02_Swap {
         sayi1=sayi3;  //  20   10   20
         System.out.println(sayi1);
         System.out.println(sayi2);
-
+//github deneme
     }
 }
