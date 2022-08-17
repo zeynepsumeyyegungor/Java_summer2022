@@ -12,7 +12,7 @@ public class deneme {
         Scanner scan = new Scanner(System.in);
         int yas = 1;
         do {
-            System.out.println("yasinizi girin :");
+            System.out.println("Aile bireylerinin yasini girin,(sirayla) :");
             yas = scan.nextInt();
             if (yas != 0) {
                 sayilar.add(yas);
