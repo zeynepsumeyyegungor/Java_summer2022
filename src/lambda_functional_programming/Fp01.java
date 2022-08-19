@@ -39,6 +39,12 @@ public class Fp01 {
         tekrarsizTekElemanlarinKupunuYazdir(liste);
         System.out.println();
         tekrarsizCiftElemanlarinKareToplami(liste);
+        System.out.println();
+        tekrarsizCiftElemanlarinCarpimi(liste);
+        getMaxEleman(liste);
+        getMaxEleman02(liste);
+        getYedidenBuyukCiftMin(liste);
+
     }
 
 
@@ -89,5 +95,36 @@ public class Fp01 {
         Integer toplam = liste.stream().distinct().filter(t -> t % 2 == 0).map(t -> t * t).reduce(0, (t, u) -> t + u);
 
         System.out.println(toplam);
+    }
+
+    //6) Tekrarsiz cift elemanlarin kupunun carpimini hesaplayan bir method olusturun
+
+    public static void tekrarsizCiftElemanlarinCarpimi(List<Integer> liste){
+        Integer carpim = liste.stream().distinct().filter(t->t%2==0).map(t->t*t*t).reduce(1,(t,u)->t*u);
+        System.out.println(carpim);
+    }
+
+    //7) List elemanlari arasinda en buyuk degeri bulan bir method olusturun.
+    // 1. Yol
+    public static void getMaxEleman(List<Integer> liste){
+
+        Integer max = liste.stream().distinct().reduce(Integer.MIN_VALUE,(t,u)->t>u ? t : u);
+        System.out.println(max);
+    }
+
+    //2. Yol :
+
+    public static void getMaxEleman02(List<Integer>liste){
+        Integer max = liste.stream().distinct().sorted().reduce(Integer.MIN_VALUE,(t,u)->u);
+        System.out.println("max = " + max);
+    }
+
+      //Ödev
+      //8)List elemanları arasından en küçük değeri bulan bir method oluşturun.(2 Yol ile)
+      // 9) List elemanları arasından 7'den büyük, çift, en küçük değeri bulan bir method oluşturun.
+
+    public static void getYedidenBuyukCiftMin(List<Integer> liste){
+        Integer min =  liste.stream().distinct().filter(t->t%2==0).filter(t->t>7).reduce(Integer.MAX_VALUE,(t,u)-> t<u ? t : u);
+        System.out.println(min);
     }
 }
