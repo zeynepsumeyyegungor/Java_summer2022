@@ -1,4 +1,4 @@
-package muzafferHoca;
+package lambda_practice;
 
 public class Q2Planning {
     /*

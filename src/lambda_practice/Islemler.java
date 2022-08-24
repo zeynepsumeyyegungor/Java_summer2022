@@ -1,4 +1,4 @@
-package muzafferHoca;
+package lambda_practice;
 
 
 import java.util.ArrayList;

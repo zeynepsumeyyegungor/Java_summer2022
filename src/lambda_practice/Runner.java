@@ -1,6 +1,6 @@
-package muzafferHoca;
+package lambda_practice;
 
-import static muzafferHoca.Islemler.girisPaneli;
+import static lambda_practice.Islemler.girisPaneli;
 
 public class Runner {
     public static void main(String[] args) {

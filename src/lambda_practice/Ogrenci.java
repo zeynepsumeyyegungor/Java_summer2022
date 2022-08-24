@@ -1,4 +1,4 @@
-package muzafferHoca;
+package lambda_practice;
 
 public class Ogrenci extends Kisi{
     private  String ogrenciNo;
