@@ -1,10 +1,10 @@
-package zzzzeeee;
+package miracHoca;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class deneme {
+public class benimSorum {
     public static void main(String[] args) {
         //aile fertlerinin sayisini bilmeden hanenin yas ortalamsini bul
 

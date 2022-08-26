@@ -1,7 +1,5 @@
 package day43_interfaces_iterators;
 
-import tekrar.C02;
-
 public class C02_Child implements I01_InterfacesBodyOlanMethod{
     @Override
     public void motor() {
